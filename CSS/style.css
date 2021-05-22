@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html{font-size: 100%;}
+
+body{
+    background-color: aqua;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 2rem;
+    background-color: brown;
+}
+
+p {
+    font-family: "游ゴシック体";
+    background-color: burlywood;
+}
+div p{
+    color: cyan;
+}
