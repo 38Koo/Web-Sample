@@ -3,19 +3,34 @@
 html{font-size: 100%;}
 
 body{
-    background-color: aqua;
+    background-color:white;
+    font-family: "游ゴシック体";
 }
 
+/* 見出し */
 h1 {
     font-family: serif;
-    font-size: 2rem;
-    background-color: brown;
+    font-size: 3rem;
+    background-color: orange;
 }
 
-p {
-    font-family: "游ゴシック体";
-    background-color: burlywood;
+header{
+    width: 600px;
 }
-div p{
-    color: cyan;
+
+/* リスト */
+.navList{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+}
+
+.navList a{
+    margin-left: 36px;
+    text-decoration: none;
+    color: burlywood;
+}
+
+.navList a:hover{
+    color: black;
 }
