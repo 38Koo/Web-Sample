@@ -1,0 +1,20 @@
+.showtool h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.sixtool {
+    margin: 10px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: 271px 80px 271px 80px;
+    place-items: center;
+}
+
+.item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

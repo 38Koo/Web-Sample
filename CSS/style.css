@@ -24,19 +24,29 @@ header{
     height: 60px;
     list-style: none;
     display: flex;
-    background-color: skyblue;
+    background-color: orange;
+    margin-bottom: 0px;
+}
+
+.navlist li{
+    width: 100px;
 }
 
 .navList a{
     margin-left: 36px;
     text-decoration: none;
-    color: burlywood;
+    color: #333;
+    width: 100px;
 }
 
 .navList a:hover{
-    color: purple;
+    color: orange;
+    background-color: #333;
 }
 
+hr{
+    margin-top: 0px;
+}
 
 .showtool h2{
     text-align: center;
@@ -57,6 +67,11 @@ header{
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+/* h2 */
+#information {
+    margin-left: 100px;
 }
 
 
