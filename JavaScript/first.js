@@ -9,7 +9,7 @@ let sentence1 = document.querySelector('p.no1').textContent = 'aaa';
 if (document.querySelector('p.no2').textContent != '説明文2'){
     console.log('aaa');
 }else{
-    console.log('bbb');
+    console.log('ccc');
 }
 
 //ホバー時ハイライトする。
