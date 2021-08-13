@@ -28,20 +28,16 @@ header{
     margin-bottom: 0px;
 }
 
-.navlist li{
-    width: 100px;
-}
-
 .navList a{
     margin-left: 36px;
     text-decoration: none;
     color: #333;
     width: 100px;
+    line-height: 60px;    
 }
 
-.navList a:hover{
-    color: orange;
-    background-color: #333;
+.navList u{
+    display: none;
 }
 
 hr{
