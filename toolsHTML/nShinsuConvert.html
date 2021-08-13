@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../JavaScript/nShinsuConvert.js" defer></script>
-    <title>Document</title>
+    <title>n進数変換ツール</title>
 </head>
 <body>
-    
+    <h1>n進数変換ツール</h1>
+    <p>n進数変換ツールです。</p>
+    <p>テキストボックスに数値を入力してください。</p>
+
+    <div id="main">
+        <div class="condition1">
+            <select name="convertTo">
+                <option value="2" selected>2</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="16">16</option>
+            </select>
+        </div>
+        <p>進数を</p>
+        <select name="convertTo2">
+            <option value="2">2</option>
+            <option value="8">8</option>
+            <option value="10" selected>10</option>
+            <option value="16">16</option>
+        </select>
+        <p>進数に変換</p>
+
+        <input type="text" placeholder="1000" maxlength="16" pattern="^[0-9A-Za-z]+$" class="number" required autofocus>
+
+        <input type="submit" value="変換" class="button">
+    </div>
 </body>
 </html>
