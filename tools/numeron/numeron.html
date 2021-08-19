@@ -7,8 +7,29 @@
     <title>数字当てゲーム</title>
 </head>
 <body>
-    <h1>数字当てゲーム</h1>
-    <p>息抜きもしてみましょう。<br>数字を当てる推理ゲームで遊んでみてください。</p>
-    <div class="main"></div>    
+    <div id="header">
+        <div class="introduce">
+            <h1>数字当てゲーム</h1>
+            <p>息抜きしてみましょう。<br>数字を当てる推理ゲームで遊んでみてください。</p>
+        </div>
+    </div>
+    <div id="main">
+        <p>桁数を選択してください。</p>
+        <select name="digit" class="digit">
+            <option value="3">3:易しい</option>
+            <option value="4" selected>4:普通</option>
+            <option value="5">5:難しい</option>
+            <option value="6">6:激ムズ</option>
+        </select>
+        <input type="submit" class="start" value="START">
+        <div class="Number">***</div>
+
+        <input type="text">
+        <input type="submit" class="answer" value="answer">
+        <div class="status">
+            <div class="correct">〇：<div class="Numberofcorrect"></div></div>
+            <div class="hit">△：<div class="Numberofhit"></div></div>
+        </div>
+    </div>    
 </body>
 </html>
