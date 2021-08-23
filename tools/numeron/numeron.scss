@@ -1,0 +1,89 @@
+$backColHover: black;
+$ColHover:white;
+
+#header{
+    border-bottom: dashed;
+}
+
+#main{
+
+    & .intro1{
+        margin-left: 30px;
+    }
+
+    & .choose{
+        display: flex;
+        border: solid;
+        position: relative;
+        text-align: center;
+        width: 800px;
+
+        & .combobox{
+            border: dashed;
+            width: 40%;
+            text-align: left;
+            margin-left: 30px;
+
+            & .digit{
+                height: 50px;
+                width: 200px;
+            }
+
+            & .intro{
+                width: 100px;
+            }
+        }
+
+        & .start{
+            border: dotted;
+            padding: 20px;
+            width: 60%;
+            // vertical-align: middle;
+            display: flex;
+            // justify-content: center; //左右中央揃え
+            align-items: center;
+        }
+
+        & .btnstart{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+    }
+
+    & .numberBox{
+        height: 200px;
+        position: relative;
+
+        & .Number{
+            position: absolute;
+            font-size: 50px;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            letter-spacing: 6px;
+        }
+    }
+}
+
+.btn{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 120px;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    
+    &:hover{
+        background-color: $backColHover;
+        color: $ColHover;
+    }
+}
+
+
