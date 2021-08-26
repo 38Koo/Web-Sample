@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="numeron.css">
+        <script src="numeron.js" defer></script>
         <title>数字当てゲーム</title>
     </head>
 
@@ -26,18 +27,25 @@
                         <option value="5">5:難しい</option>
                         <option value="6">6:激ムズ</option>
                     </select>
-                    <p class="intro2">???</p>
+                    <p class="intro2"></p>
                 </div>
-                <div class="start"><button class="btn btnstat">Start</button></div>
+                <div class="start"><button class="btn btnstart">Start</button></div>
             </div>
-            <div class="numberBox"><div class="Number">***</div></div>
-
-            <input type="text">
-            <button class="btn">Check!</button>
-            <div class="status">
-                <div class="correct">〇：<div class="Numberofcorrect"></div>
+            <div class="numberBox">
+                <div class="Number">***</div>
+            </div>
+            <div class="answerField">
+                <div class="inputField">
+                    <input class = "inputcheck" id = "inputchk" type="text" maxlength="4" pattern="^[0-9]+$">
                 </div>
-                <div class="hit">△：<div class="Numberofhit"></div>
+                <div class="btnField">
+                    <button class="btn btncheck">Check!</button>
+                </div>
+                <div class="HintField">
+                    <div class="Hit">〇：<div class="numberOfHit"></div>
+                    </div>
+                    <div class="Blow">△：<div class="numberOfBlow"></div>
+                    </div>
                 </div>
             </div>
         </div>

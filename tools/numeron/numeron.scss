@@ -65,6 +65,48 @@ $ColHover:white;
             letter-spacing: 6px;
         }
     }
+
+    & .answerField{
+        // display: flex;
+        border: solid;
+        
+        & .inputField{
+            border: solid;
+            top: 20px;
+            height: 150px;          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            & .inputcheck{
+                letter-spacing: 50px;
+                height: 100px;
+                width: 300px;
+                font-size: 20px;
+            }
+        }
+
+        & .btnField{
+            position: relative;
+            height: 60px;     
+            & .btncheck{
+                position: absolute;
+                right: 10%;
+            }
+        }
+
+        & .HintField{
+            display: flex;
+            justify-content: space-around;
+            
+            & > div{
+                font-size: 50px;
+            }
+            
+        }
+
+        
+    }
 }
 
 .btn{
