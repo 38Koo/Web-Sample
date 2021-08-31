@@ -18,12 +18,12 @@
             </div>
         </div>
         <div id="main">
-            <p class="intro1">桁数を選択してください。</p>
             <div class="choose">
                 <div class="combobox">
                     <select name="digit" class="digit">
+                        <option value="0" selected>桁数を選択してください。</option>
                         <option value="3">3:易しい</option>
-                        <option value="4" selected>4:普通</option>
+                        <option value="4">4:普通</option>
                         <option value="5">5:難しい</option>
                         <option value="6">6:激ムズ</option>
                     </select>
@@ -32,7 +32,7 @@
                 <div class="start"><button class="btn btnstart">Start</button></div>
             </div>
             <div class="numberBox">
-                <div class="Number">***</div>
+                <div class="Number"></div>
             </div>
             <div class="answerField">
                 <div class="inputField">
@@ -46,6 +46,14 @@
                     </div>
                     <div class="Blow">△：<div class="numberOfBlow"></div>
                     </div>
+                </div>
+                <div class="hintHistory">
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
                 </div>
             </div>
         </div>
